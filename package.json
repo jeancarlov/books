@@ -1,0 +1,32 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "This is a general practice of a fullstack web app",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeancarlov/books.git"
+  },
+  "keywords": [
+    "practice",
+    "fullstack"
+  ],
+  "author": "Jean Carlo Valderrama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeancarlov/books/issues"
+  },
+  "homepage": "https://github.com/jeancarlov/books#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "concurrently": "^4.1.0",
+    "express": "^4.17.0",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.5.9",
+    "nodemon": "^1.19.0"
+  }
+}
